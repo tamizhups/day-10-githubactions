@@ -7,6 +7,6 @@ steps:
       - |
         terraform init
         terraform apply --auto-approve
-
+#added argo
 options:
   logging: CLOUD_LOGGING_ONLY
