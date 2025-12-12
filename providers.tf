@@ -12,6 +12,7 @@ provider "google" {
     region  = "us-central1"
   
 }
+# added 
 resource "google_storage_bucket" "action1" {
     name     = " test-buck-786546"
     location = "US"
