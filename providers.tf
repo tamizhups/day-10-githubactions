@@ -13,8 +13,9 @@ provider "google" {
   
 }
 # added again
-resource "google_storage_bucket" "action1" {
-    name     = "test-buck-786546"
+resource "google_storage_bucket" "cloudbuild" {
+    name     = "test-buck-1234678"
     location = "US"
   
-}
+  }
+
